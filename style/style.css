@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+i, a i{
+  font-size: 25px;
+  padding: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+a i:hover{
+  color: lightblue;
+}
+
 h2{
   font-size: 50px;
   font-weight: bold;
@@ -78,6 +89,10 @@ section:nth-child(4) .row:last-child :first-child  a{
   text-decoration: none;
 }
 
+section:nth-child(4) p{
+  padding: 2% 0;
+}
+
 /* SEZIONE CONTACTS */
 section:nth-child(5) .row:last-child [class*="col-"]{
   text-align: left;
@@ -100,10 +115,14 @@ section:nth-child(5) .row:last-child [class*="col-"]{
 }
 
 /* Pre Footer */
-section:nth-child(6){
+section:nth-child(6) {
   color: white;
   background-color: #3a546d;
   padding: 50px 0;
+}
+
+section:nth-child(6) [class*="col-"] {
+  padding: 10px 0;
 }
 
 footer .dark{
