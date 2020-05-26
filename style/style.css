@@ -74,8 +74,41 @@ section:nth-child(3) [class*="col-"]:not(:first-child){
 }
 
 section:nth-child(3) img{
-  max-width: 75%;
+  max-width: 80%;
   border-radius: 15px;
+}
+
+.wrap{
+  position: relative;
+}
+
+section:nth-child(3) .wrap .hoverme{
+  height: 100%;
+  font-size: 35px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: 50;
+  width: 80%;
+  text-align: center;
+  border-radius: 15px;
+  transition: all 1.5s;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+
+}
+
+section:nth-child(3) .hoverme span{
+  display: inline-block;
+  padding-top: calc(50% - 60px);
+
+}
+
+section:nth-child(3) .wrap:hover .hoverme{
+  display: block;
+  opacity: 1;
+
 }
 
 /* Sezione ABOUT */
