@@ -249,9 +249,8 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-success" data-dismiss="modal" onclick="document.getElementById('audio').pause(); document.getElementById('audio').currentTime=0;
-          ">X Close</button>
-          <audio id="audio" src="style/Portal.mp3"></audio>
+          <button type="button" class="btn btn-success" data-dismiss="modal" onclick="document.getElementById('audio').pause(); document.getElementById('audio').currentTime=0;">X Close</button>
+          <audio id="audio" src="style/Portal.mp3" preload="auto"></audio>
           <a onclick="document.getElementById('audio').play(); alert('You found the easter egg :)');"> <img src="img/aperture.png" style="max-width:4%; cursor: pointer;" alt=""></a>
         </div>
       </div>
