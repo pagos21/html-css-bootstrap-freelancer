@@ -9,7 +9,8 @@
   display: none;
 }
 
-@media screen and (max-width: 766px) {
+/* @media all and (min-width: 300px) and (max-width: 765px) {
+
   #down-bar *{
     display: block;
   }
@@ -24,12 +25,9 @@
     height: 60px;
     border-radius: 10px;
   }
-
   #down-bar #scroll a i{
     line-height: 55px;
-}
-
-
+} */
 
 i, a i{
   font-size: 25px;
