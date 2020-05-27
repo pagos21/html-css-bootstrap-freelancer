@@ -65,7 +65,7 @@ section {
   padding: 80px 0;
 }
 
-section:last-child{
+#footer{
   padding: 0;
 }
 
@@ -123,6 +123,7 @@ section:nth-child(3) img{
 
 .wrap{
   position: relative;
+  cursor: pointer;
 }
 
 section:nth-child(3) .wrap .hoverme{
@@ -220,4 +221,9 @@ footer .dark{
 
 .pad{
   padding: 1.5rem 0 !important;
+}
+
+
+.modal-footer{
+  text-align: center;
 }
