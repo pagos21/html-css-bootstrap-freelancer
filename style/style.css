@@ -5,6 +5,32 @@
   box-sizing: border-box;
 }
 
+#down-bar *{
+  display: none;
+}
+
+@media screen and (max-width: 766px) {
+  #down-bar *{
+    display: block;
+  }
+  #down-bar #scroll{
+    position: fixed;
+    float: right;
+    z-index: 100;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: rgba(33, 37, 41, 0.5);
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  #down-bar #scroll a i{
+    line-height: 55px;
+}
+
+
+
 i, a i{
   font-size: 25px;
   padding: 0 10px;
